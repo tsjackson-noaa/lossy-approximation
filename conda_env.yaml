@@ -1,0 +1,16 @@
+name: _lossy_approximation
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=2.7
+- jupyter
+- numpy
+- scipy
+- matplotlib
+- pandas
+- netCDF4
+- cartopy
+- eumetsat::fftw3
+- pip:
+  - pyshtools
